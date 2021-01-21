@@ -12,7 +12,6 @@ import sys # Pour pouvoir arrêter le programme
 numEcran = 0 # Nombre de tentative. Le nom est très mauvais mais on m'a dit de respecter les consignes. -_- 
 
 mot = fonction.definirMotRecherche() 
-print(mot)
 motEnCours = ["_" for i in mot] # Mettre autant de tirets qu'il y a de lettres dans le mot correct dans le mot trouvé
 
 motEnCours[0] = mot[0] # On donne généreusement la première lettre du mot à trouver par l'utilisateur
